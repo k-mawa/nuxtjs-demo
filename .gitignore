@@ -1,0 +1,62 @@
+# ============================================
+# Nuxt.js Public Repository .gitignore
+# ============================================
+
+# dependencies
+/node_modules
+
+# nuxt.js
+.nuxt/
+.output/
+dist/
+
+# nitro
+.nitro/
+.cache/
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+*.pem
+Thumbs.db
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env
+.env.*
+!.env.example
+
+# typescript
+*.tsbuildinfo
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AI coding tools (keep local only)
+CLAUDE.md
+.cursorrules
+.windsurfrules
+.github/copilot-instructions.md
+
+# Vercel
+.vercel/
+
+# Internal planning docs (not needed in public repo)
+docs/
+
+# OS
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
